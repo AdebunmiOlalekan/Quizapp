@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 606px;
+    width: 100%;
+    background-color: black;
+}
+#start{
+    height: 30px;
+    width: 85px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+#container{
+    height: 400px;
+    width: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    display: none;
+}
+#child{
+    height: 350px;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    
+}
+#subject1{
+    height: 80px;
+    width: 100%;
+    background-color: pink;
+    padding-left: 10px;
+}
+#subject2{
+    height: 80px;
+    width: 100%;
+    background-color: pink;
+    padding-left: 10px;
+
+}
+#subject3{
+    height: 80px;
+    width: 100%;
+    background-color: pink;
+    padding-left: 10px;
+
+}
+#subject4{
+    height: 80px;
+    width: 100%;
+    background-color: pink;
+    padding-left: 10px;
+
+}
+#div1{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: calibri;
+    cursor: pointer;
+}
+#mathcontainer{
+    height: 400px;
+    width: 100%;
+    background-color: #bb9e7e;
+   box-shadow: 10px 10px 20px white;
+    position: absolute;
+    top: 0%;
+    display: none;
+    
+}
+#carry1{
+    height: 270px;
+    width: 98%;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 60px;
+
+}
+#nextbtn{
+    position: absolute;
+    top: 85%;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    left: 10%;
+    font-family: courier new;
+    font-size: 20px;
+    font-weight: bold;
+}
+#previousbtn{
+    position: absolute;
+    top: 85%;
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    border: none;
+    left: 70%;
+    font-family: courier new;
+    font-size: 20px;
+    font-weight: bold;
+}
+#math1{
+    font-size: 5-px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: calibri;
+
+}
+#ans1{
+    height: 180px;
+    width: 97%;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 10px;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 5%;
+    padding-left: 10px;
+    
+}
+#anscon1{
+    height: 60px;
+    border-radius: 50px;
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+}
+#anscon2{
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    height: 60px;
+    border-radius: 50px;
+}
+#anscon3{
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    height: 60px;
+    border-radius: 50px;
+}
+#anscon4{
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    height: 60px;
+    border-radius: 50px;
+}
+#carry1{
+    height: 270px;
+    width: 98%;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 60px;
+
+}
+#math1{
+    font-size: 5-px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: calibri;
+
+}
+#ans1{
+    height: 180px;
+    width: 97%;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 10px;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 5%;
+    padding-left: 10px;
+    
+}
+
+
+#anscon11{
+    height: 60px;
+    border-radius: 50px;
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+}
+#anscon12{
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    height: 60px;
+    border-radius: 50px;
+}
+#anscon13{
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    height: 60px;
+    border-radius: 50px;
+}
+#anscon14{
+    background-image:linear-gradient(white, white),
+    linear-gradient(315deg, yellow 30%,#fd1d1d 50%,pink);
+    background-clip: content-box, border-box;
+    border: 2px solid transparent;
+    height: 60px;
+    border-radius: 50px;
+}
+#carry2{
+    height: 270px;
+    width: 98%;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    display: none;
+
+}
+#math2{
+    font-size: 5-px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: calibri;
+
+}

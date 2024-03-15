@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamb Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <button id="start" onclick="sta()">Start</button>
+        <div id="container">
+            <p style="font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-left: 10px;">Choose your subject</p>
+           <div id="child">
+            <div id="subject1">MATHEMATICS 
+                <div id="div1" onclick="math()">-</div>
+            </div>
+            <div id="subject2">ENGLISH</div>
+            <div id="subject3">PHYSICS</div>
+            <div id="subject4">GOVERMENT</div>
+           </div>
+
+           <section id="mathcontainer">
+            <button id="nextbtn" onclick="nextFunction1()">Next</button>
+                <button id="previousbtn" onclick="previousfuntion1()">Previous</button>
+           <h1 style="font-family: calibri; font-size: 2.7rem; text-align: center;">QUESTION</h1>
+            <section id="carry1">
+                <p id="math1">if i divide 50 by 2 what's the answer</p>
+                    <div id="ans1" onclick="ans()">
+                        <div id="anscon1" ><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:15%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">A</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;">11</p></div>
+                        <div id="anscon2"><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:15%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">B</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;">25</p></div>
+                        <div id="anscon3"><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:70%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">C</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;">119</p></div>
+                        <div id="anscon4"><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:70%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">D</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;">139</p></div>
+                    </div>
+            </section>
+            <section id="carry2">
+                <p id="math2">2. Evaluate 110112 + 101112 in binary.</p>
+                    <div id="ans1" onclick="ans1()">
+                        <div id="anscon11" ><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:15%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">A</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;"><sup>110010</sup>2</p></div>
+                        <div id="anscon12"><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:15%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">B</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;"><sup>101101</sup>2</p></div>
+                        <div id="anscon13"><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:70%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">C</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;"><sup>111011</sup>2</p></div>
+                        <div id="anscon14"><div style="height: 30px;width: 30px; border: 2px solid blue; border-radius: 50%;position: absolute;top:70%; font-size: 20px;font-family: calibri;text-align: center;font-weight: bold;">D</div><p style="font-size: 20px;font-weight: bold;font-family: calibri;padding-left: 30%;padding-top: 6%;"><sup>100111</sup>2</p></div>
+                    </div>
+            </section>
+            <div id="div1" onclick="mathDown()" style="font-size: 50px; position: absolute; top: 15px; font-weight: bold;">+</div>
+           </section>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
